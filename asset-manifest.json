@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/midjourney-web-app/static/css/main.f93c7797.css",
-    "main.js": "/midjourney-web-app/static/js/main.53e30eff.js",
-    "static/media/backgroundimg.png": "/midjourney-web-app/static/media/backgroundimg.67d5ae12eabda58e8561.png",
-    "static/media/image2.png": "/midjourney-web-app/static/media/image2.33408effb536b3fcd222.png",
-    "static/media/image.png": "/midjourney-web-app/static/media/image.a7587094fdebba11c56d.png",
-    "static/media/image1.png": "/midjourney-web-app/static/media/image1.e5844e4ba5687eaa35f2.png",
-    "static/media/card_icon.png": "/midjourney-web-app/static/media/card_icon.8f59ec2677cc40baedb2.png",
-    "static/media/card_icon1.png": "/midjourney-web-app/static/media/card_icon1.50d04a9aaa41c3037888.png",
-    "static/media/card_icon2.png": "/midjourney-web-app/static/media/card_icon2.f45001cb72328ed357a6.png",
-    "static/media/star.svg": "/midjourney-web-app/static/media/star.cd6d9f5588378b31c91c342960230bd6.svg",
-    "index.html": "/midjourney-web-app/index.html",
-    "main.f93c7797.css.map": "/midjourney-web-app/static/css/main.f93c7797.css.map",
-    "main.53e30eff.js.map": "/midjourney-web-app/static/js/main.53e30eff.js.map"
+    "main.css": "/Midjourney-web-app/static/css/main.4336963c.css",
+    "main.js": "/Midjourney-web-app/static/js/main.fadec548.js",
+    "static/media/backgroundimg.png": "/Midjourney-web-app/static/media/backgroundimg.67d5ae12eabda58e8561.png",
+    "static/media/image2.png": "/Midjourney-web-app/static/media/image2.33408effb536b3fcd222.png",
+    "static/media/image.png": "/Midjourney-web-app/static/media/image.a7587094fdebba11c56d.png",
+    "static/media/image1.png": "/Midjourney-web-app/static/media/image1.e5844e4ba5687eaa35f2.png",
+    "static/media/card_icon.png": "/Midjourney-web-app/static/media/card_icon.8f59ec2677cc40baedb2.png",
+    "static/media/card_icon1.png": "/Midjourney-web-app/static/media/card_icon1.50d04a9aaa41c3037888.png",
+    "static/media/card_icon2.png": "/Midjourney-web-app/static/media/card_icon2.f45001cb72328ed357a6.png",
+    "static/media/star.svg": "/Midjourney-web-app/static/media/star.cd6d9f5588378b31c91c342960230bd6.svg",
+    "index.html": "/Midjourney-web-app/index.html",
+    "main.4336963c.css.map": "/Midjourney-web-app/static/css/main.4336963c.css.map",
+    "main.fadec548.js.map": "/Midjourney-web-app/static/js/main.fadec548.js.map"
   },
   "entrypoints": [
-    "static/css/main.f93c7797.css",
-    "static/js/main.53e30eff.js"
+    "static/css/main.4336963c.css",
+    "static/js/main.fadec548.js"
   ]
 }

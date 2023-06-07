@@ -1,0 +1,199 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 0px;
+
+  position: absolute;
+  width: 1516px;
+  height: 50px;
+  left: 0px;
+  top: 40px;
+  gap: 615px;
+  z-index: 1;
+}
+
+.logo {
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  flex: none;
+  position: relative;
+  top: 10px;
+  left: 70px;
+  width: 194px;
+  height: 29.25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 0px;
+  gap: 90px;
+
+  width: 646px;
+  height: 40.5px;
+
+  z-index: 1;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  width: 110px;
+  height: 38px;
+}
+
+a:hover {
+  color: rgba(254, 200, 241, 0.9);
+}
+
+/* Sign Up button */
+.signUp {
+  width: 90px;
+  height: 30px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+
+  border-radius: 10px;
+
+  background: linear-gradient(
+      180deg,
+      rgba(254, 200, 241, 0.9) -22.92%,
+      rgba(237, 146, 215, 0) 26.73%
+    ),
+    radial-gradient(
+        116.32% 95.63% at 76.68% 66.67%,
+        rgba(96, 46, 166, 0) 0%,
+        rgba(201, 119, 214, 0.5) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: overlay, normal;
+
+  box-shadow: inset 0px -1px 8px #9375b6, inset 0px 0px 5px #fface4;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.2));
+  border-radius: 10px;
+  border-color: #ee8af7;
+}
+
+.blur {
+  position: absolute;
+  width: 1620px;
+  height: 160px;
+  left: -101px;
+  top: -45px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.08) 28.32%,
+    rgba(0, 0, 0, 0) 95.98%
+  );
+  filter: blur(1px);
+  backdrop-filter: blur(15px);
+}
+
+/* Media queries for responsiveness */
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    top: 20px;
+    width: 768px;
+    left: 4px;
+  }
+
+  .logo {
+    left: 0;
+  }
+  .navbar-menu {
+    display: none;
+  }
+
+  ul {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    left: 350px;
+    gap: 10px;
+  }
+
+  li a {
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+  }
+
+  .signUp {
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+  }
+  .blur {
+    width: 865px;
+  }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  nav {
+    width: 480px;
+    left: 0;
+  }
+
+  .logo {
+    width: 100px;
+    top: 15px;
+    left: 4px;
+  }
+
+  .nav_logo{
+    width: 100px;
+  }
+
+  ul {
+    position: absolute;
+    top: -5px;
+    left: 180px;
+    width: 250px;
+    height: 32px;
+    gap: 0px;
+  }
+
+  li a {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .signUp {
+    width: 70px;
+    height: 26px;
+    font-size: 10px;
+  }
+
+  .blur {
+    width: 572px;
+  }
+}
